@@ -1,0 +1,75 @@
+digraph {
+	rankdir = LR
+
+	nonstop -> burrsir [label="Aaron Burr, Sir; What do you stall for?"];
+	nonstop -> tonight2 [label="What are you waiting for?"];
+	nonstop -> waitforit [label="Burr waiting"]
+#	nonstop -> stayalive [label="Stay alive, that would be enough"]
+	nonstop -> enough [label="Stay alive, that would be enough"]
+	nonstop -> righthand [label="I'm asking you to be my right hand man"]
+	nonstop -> schuyler [label="Look around, look around at how lucky we are to be alive right now"]
+	nonstop -> helpless [label="Helpless..."]
+	nonstop -> satisfied [label="What would be enough to be satisfied"]
+	nonstop -> eyes [label="History has its eyes on you"]
+	nonstop -> myshot [label="not throwing away my shot"]
+	nonstop -> ah [label="Just you wait"]
+#	nonstop -> satisfied [label="Just you wait"]
+
+	enough -> schuyler [label="look around, look around"]
+
+
+	{ 
+		rank = "same";
+
+		ah        [label="Alexander Hamilton"];
+		burrsir   [label="Aaron Burr, Sir"];
+		myshot    [label="My Shot"];
+		tonight   [label="The Story of Tonight"];
+		schuyler  [label="The Schuyler Sisters"];
+		farmer    [label="Farmer Refuted"];
+		beback    [label="You'll Be Back"];
+		righthand [label="Right Hand Man"];
+		ball      [label="A Winter's Ball"];
+		helpless  [label="Helpless"];
+		satisfied [label="Satisfied"];
+		tonight2  [label="The Story of Tonight (Reprise)"];
+		waitforit [label="Wait For It"];
+		stayalive [label="Stay Alive"];
+		tencom    [label="Ten Duel Commandments"];
+		inside    [label="Meet Me Inside"];
+		enough    [label="That Would Be Enough"];
+		guns      [label="Guns and Ships"];
+		eyes      [label="History Has Its Eyes on You"];
+		yorktown  [label="Yorktown (The World Turned Upside Down)"];
+		next      [label="What Comes Next?"];
+		theodosia [label="Dear Theodosia"];
+		tomorrow  [label="Tomorrow There'll Be More Of Us"];
+		nonstop   [label="Non-Stop"];
+
+
+
+		miss        [label="What'd I Miss"];
+		cabinet1    [label="Cabinet Battle #1"];
+		break       [label="Take a Break"];
+		sayno       [label="Say No To This"];
+		room        [label="The Room Where It Happens"];
+		defeated    [label="Schuyler Defeated"];
+		cabinet2    [label="Cabinet Battle #2"];
+		washington  [label="Washington on Your Side"];
+		onelasttime [label="One Last Time"];
+		iknowhim    [label="I Know Him"];
+		adams       [label="The Adams Administration"];
+		weknow      [label="We Know"];
+		hurrican    [label="Hurricane"];
+		reynolds    [label="The Reynolds Pamphlet"];
+		burn        [label="Burn"];
+		blow        [label="Blow Us All Away"];
+		stayalive2  [label="Stay Alive (Reprise)"];
+		uptown      [label="It's Quiet Uptown"];
+		election    [label="The Election of 1800"];
+		servant     [label="Your Obedient Servant"];
+		best        [label="Best of Wives and Best of Women"];
+		wideenough  [label="The World Was Wide Enough"];
+		wholives    [label="Who Lives, Who Dies, Who Tells Your Story"];
+	}
+}
